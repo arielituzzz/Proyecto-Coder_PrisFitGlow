@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-coder-prisfitglow",
+  "version": "1.0.0",
+  "description": "Proyecto Coder-House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielituzzz/Proyecto-Coder_PrisFitGlow.git"
+  },
+  "author": "Ariel Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielituzzz/Proyecto-Coder_PrisFitGlow/issues"
+  },
+  "homepage": "https://github.com/arielituzzz/Proyecto-Coder_PrisFitGlow#readme"
+}
