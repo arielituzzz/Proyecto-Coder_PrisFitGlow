@@ -1,0 +1,38 @@
+.presentation {
+  &__textPresentation {
+    width: 68.6rem;
+    height: 19.2rem;
+    font-family: "Segoe Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 9.6rem;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  &__linkTraining {
+    text-decoration: none;
+    &__btnTraining {
+      cursor: pointer;
+      background: #ffffff;
+      border: 0.2rem solid #a4d0b7;
+      box-sizing: border-box;
+      border-radius: 0.8rem;
+      font-family: "Segoe UI";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #36252e;
+      padding: 1.5rem 8.5rem;
+    }
+    &__btnTraining:hover {
+      color: #a4d0b7;
+    }
+  }
+}

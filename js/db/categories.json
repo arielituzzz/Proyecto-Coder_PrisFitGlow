@@ -1,0 +1,6 @@
+[
+  { "name": "Entrenamientos", "link": "../../pages/entrenamientos.html" },
+  { "name": "Nutricion", "link": "../../pages/nutricion.html" },
+  { "name": "Tienda", "link": "../../pages/tienda.html" },
+  { "name": "Contacto", "link": "../../pages/contacto.html" }
+]
