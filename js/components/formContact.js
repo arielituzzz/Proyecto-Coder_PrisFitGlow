@@ -2,53 +2,57 @@ export const form = document.createElement("div");
 const contactForm = document.createElement("form");
 form.appendChild(contactForm);
 
-/*
+
 const formLeft = document.createElement("div");
+contactForm.appendChild(formLeft);
+formLeft.classList.add("form__left")
+
 const formRight = document.createElement("div");
-*/
+contactForm.appendChild(formRight);
+formRight.classList.add("form__right")
 
 const formTitle = document.createElement("h3");
 formTitle.textContent = "Contactate con nosotros";
-formTitle.classList.add("form__title"); /* Esta muy bien la implementacion de la clase!, ahora te falta crearla.
+formTitle.classList.add("form__left__title"); /* Esta muy bien la implementacion de la clase!, ahora te falta crearla.
 Acordate que las clases del componente van en scss/components y las del layout general de la pagina que estes haciendo en scss/pages */
-contactForm.appendChild(formTitle);
+formLeft.appendChild(formTitle);
 
 const inputName = document.createElement("input");
 inputName.type = "text";
 inputName.placeholder = "Nombre";
-inputName.classList.add("input");
-contactForm.appendChild(inputName);
+inputName.classList.add("form__left__input");
+formLeft.appendChild(inputName);
 
 const inputMail = document.createElement("input");
 inputMail.type = "email";
 inputMail.placeholder = "E-mail";
-inputMail.classList.add("input");
-contactForm.appendChild(inputMail);
+inputMail.classList.add("form__left__input");
+formLeft.appendChild(inputMail);
 
 const inputText = document.createElement("input");
 inputText.type = "text";
 inputText.placeholder = "Mensaje";
-inputText.classList.add("input");
-contactForm.appendChild(inputText);
+inputText.classList.add("form__left__inputText");
+formLeft.appendChild(inputText);
 
 const submit = document.createElement("input");
 submit.type = "submit";
 submit.value = "Enviar";
-submit.classList.add("btn");
-contactForm.appendChild(submit);
+submit.classList.add("form__left__submit");
+formLeft.appendChild(submit);
 
 const formImg = document.createElement("img");
 formImg.src = "/images/paul-hanaoka-HbyYFFokvm0-unsplash.png";
-contactForm.appendChild(formImg);
+formRight.appendChild(formImg);
 
 const facebookLogo = document.createElement("img");
 facebookLogo.src = "/images/logos/fb.png";
-contactForm.appendChild(facebookLogo);
+formRight.appendChild(facebookLogo);
 
 const instagramLogo = document.createElement("img");
 instagramLogo.src = "/images/logos/Instagram.png";
-contactForm.appendChild(instagramLogo);
+formRight.appendChild(instagramLogo);
 
 const mailLogo = document.createElement("img");
 mailLogo.src = "/images/logos/Mail.png";
-contactForm.appendChild(mailLogo);
+formRight.appendChild(mailLogo);
