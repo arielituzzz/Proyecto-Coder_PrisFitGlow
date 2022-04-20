@@ -20,19 +20,19 @@ formLeft.appendChild(formTitle);
 const inputName = document.createElement("input");
 inputName.type = "text";
 inputName.placeholder = "Nombre";
-inputName.classList.add("form__left__input");
+inputName.classList.add("form__left__inputNombre");
 formLeft.appendChild(inputName);
 
 const inputMail = document.createElement("input");
 inputMail.type = "email";
 inputMail.placeholder = "E-mail";
-inputMail.classList.add("form__left__input");
+inputMail.classList.add("form__left__inputMail");
 formLeft.appendChild(inputMail);
 
 const inputText = document.createElement("input");
 inputText.type = "text";
 inputText.placeholder = "Mensaje";
-inputText.classList.add("form__left__inputText");
+inputText.classList.add("form__left__inputMensaje");
 formLeft.appendChild(inputText);
 
 const submit = document.createElement("input");
