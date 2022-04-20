@@ -1,4 +1,17 @@
 @import "./pages/index.scss";
+@import "./pages/contacto.scss";
+
+// Fuentes
+
+@font-face {
+  font-family: 'Segoe Script';
+  src: url(/fonts/segoesc.ttf);
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(/fonts/Segoe\ UI.ttf);
+}
 
 /* RESET'S */
 * {
