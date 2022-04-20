@@ -8,6 +8,6 @@ headerContact.appendChild(navBarAux);
 bodyContact.appendChild(headerContact);
 bodyContact.appendChild(mainContact);
 
- mainContact.appendChild(form);
+mainContact.appendChild(form);
 
 
