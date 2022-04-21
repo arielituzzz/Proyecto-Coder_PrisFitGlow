@@ -12,6 +12,7 @@ leftCard.classList.add("cards__left", "card");
 const imgLeftCard = document.createElement("img");
 imgLeftCard.src = "/images/cards/Rectangle7.png";
 leftCard.appendChild(imgLeftCard);
+// imgLeftCard.classList.add("");
 
 const h3LeftCard = document.createElement("h3");
 h3LeftCard.textContent = "Entrenamientos mensuales";
@@ -30,7 +31,7 @@ imgMiddleCard.src = "/images/cards/Rectangle6.png";
 middleCard.appendChild(imgMiddleCard);
 
 const h3MiddleCard = document.createElement("h3");
-h3MiddleCard.textContent = "Entrenamientos con plan funcional";
+h3MiddleCard.textContent = "Entrenamientos con plan nutricional";
 middleCard.appendChild(h3MiddleCard);
 h3MiddleCard.classList.add("cards__title");  
 
