@@ -1,16 +1,17 @@
 @import "./pages/index.scss";
 @import "./pages/contacto.scss";
+@import "./pages/nutrition";
 
 // Fuentes
 
 @font-face {
-  font-family: 'Segoe Script';
+  font-family: "Segoe Script";
   src: url(/fonts/segoesc.ttf);
 }
 
 @font-face {
-  font-family: 'Segoe UI';
-  src: url(/fonts/Segoe\ UI.ttf);
+  font-family: "Segoe UI";
+  src: url(/fonts/Segoe_UI.ttf);
 }
 
 /* RESET'S */

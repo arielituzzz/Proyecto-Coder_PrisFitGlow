@@ -1,0 +1,116 @@
+[
+  {
+    "img": "../../images/recipes/yogurt-con-cereal.png",
+    "title": "Yogurt con cereal",
+    "ingredients": [
+      "15 gramos de almendras",
+      "15 gramos de chia",
+      "15 gramos de granola",
+      "1 taza de yogurt griego",
+      "1 cucharada de miel",
+      "1 taza de mango en cubitos",
+      "1 taza de fruta (a eleccion)"
+    ],
+    "preparation": "Bueno esto realmente no es nada dificil, tan solo usa un tazon o 'plato' y mezcla todos los cereales con el yogurt. En un vaso vertir los..."
+  },
+  {
+    "img": "../../images/recipes/quinoa-con-vegetales.png",
+    "title": "Quinoa con vegetales",
+    "ingredients": [
+      "1 taza (de aprox. 200 ml) de quinoa",
+      "2 tazas de agua o caldo de verduras",
+      "1 calabacin",
+      "1 pimiento rojo",
+      "2 zanahorias",
+      "100 g de guisantes",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta"
+    ],
+    "preparation": "La quinoa con verduras se puede preparar con verduras..."
+  },
+  {
+    "img": "../../images/recipes/ensalada-garbanzos.png",
+    "title": "Ensalada de garbanzos",
+    "ingredients": [
+      "200 g de garbanzos cocidos",
+      "1/2 cebolla morada",
+      "2 o 3 ramas de apio",
+      "2 cucharadas de eneldo picado",
+      "1 limon",
+      "1 diente de ajo",
+      "1 cucharadita de miel",
+      "Sal y pimienta",
+      "1 cucharada de aceite de oliva"
+    ],
+    "preparation": "Exprimimos el limon..."
+  },
+  {
+    "img": "../../images/recipes/batido-de-pepino.png",
+    "title": "Licuado de pepino",
+    "ingredients": ["2 tazas de agua", "1 pepino", "Miel a gusto", "1 limon"],
+    "preparation": "Pelamos, lavamos y cortamos en trozos el pepino. Coloca en el vaso de la licuadora. Lava el limon, corta en dos y exprime el jugo directo en la licuadora, vierte el agua y anade miel..."
+  },
+  {
+    "img": "../../images/recipes/tortitas-de-espinacas.png",
+    "title": "Bunuelos de espinaca",
+    "ingredients": [
+      "200 g de queso fresco",
+      "500 g de espinacas picadas",
+      "1/2 trozo de cebolla picada",
+      "2 huevos",
+      "1 pizca de ajo en polvo",
+      "3 cucharadas de harina",
+      "2 cucharadas de aceite vegetal",
+      "1 litro de agua",
+      "1 pizca de sal",
+      "1 pizca de pimienta"
+    ],
+    "preparation": "Como primer paso debes poner a hervir agua en una cacerola..."
+  },
+  {
+    "img": "../../images/recipes/lentejas-con-carne.png",
+    "title": "Lentejas con carne",
+    "ingredients": [
+      "1/2 kilo de carne de vaca blanda",
+      "1 cebolla picada",
+      "3 dientes de ajo",
+      "Aceite lo necesario",
+      "3 ramas de apio",
+      "3 zanahorias",
+      "1 tomate grande",
+      "1 1/2 taza de lentejas",
+      "6 tazas de caldo de carne",
+      "2 hojas de laurel",
+      "Sal y pimienta a gusto"
+    ],
+    "preparation": "Calentamos una olla..."
+  },
+  {
+    "img": "../../images/recipes/pancakes-veganos.png",
+    "title": "Pancakes veganos",
+    "ingredients": [
+      "375 gramos de harina",
+      "375 ml de leche de soya",
+      "15 gramos de azucar",
+      "30 ml de aceite",
+      "1 pizca de sal",
+      "1 cuchara de royal (polvo para hornear)",
+      "1 cucharita de escencia de vainilla",
+      "1/2 vaso de agua (si es necesario)"
+    ],
+    "preparation": "Tomar un bowl y tamizar la harina, anadir la leche, azucar, aceite, royal, vainilla, y de ser necesario..."
+  },
+  {
+    "img": "../../images/recipes/batido-de-pera.png",
+    "title": "Licuado de pera",
+    "ingredients": [
+      "Azucar a gusto",
+      "2 peras en trozos",
+      "2 tazas de leche de soya",
+      "Canela en polvo para decorar"
+    ],
+    "preparation": "En una licuadora agregar todos los ingredientes mencionados. Licua bien hasta conseguir una mezcla suave y homogenea. Sirve y espolvorea con canela en polvo para decorar."
+  }
+]
