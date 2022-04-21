@@ -14,17 +14,13 @@ fetch(URL_RECIPES)
       cardRecipeContent.style.backgroundImage = `url(${recipe.img})`;
       cardRecipeContent.addEventListener("mouseover", () => {
         cardRecipeContent.style.background = "white";
-        ingredientsTitle.textContent = "Ingredientes";
-        ingredientsContent.textContent = recipe.ingredients;
-        preparationTitle.textContent = "Preparacion";
-        preparationContent.textContent = recipe.preparation;
+        divIngredients.style.display = "block";
+        divPreparation.style.display = "block";
       });
       cardRecipeContent.addEventListener("mouseleave", () => {
         cardRecipeContent.style.backgroundImage = `url(${recipe.img})`;
-        ingredientsTitle.textContent = "";
-        ingredientsContent.textContent = "";
-        preparationTitle.textContent = "";
-        preparationContent.textContent = "";
+        divIngredients.style.display = "none";
+        divPreparation.style.display = "none";
       });
       const cardRecipeTitle = document.createElement("div");
       cardRecipeTitle.textContent = recipe.title;
@@ -35,7 +31,13 @@ fetch(URL_RECIPES)
       ingredientsTitle.classList.add(
         "cardsRecipe__card__content__ingredients__title"
       );
-      const ingredientsContent = document.createElement("div");
+      ingredientsTitle.textContent = "Ingredientes";
+      const ingredientsContent = document.createElement("ul");
+      for (const item of recipe.ingredients) {
+        const ingredient = document.createElement("li");
+        ingredient.textContent = item;
+        ingredientsContent.appendChild(ingredient);
+      }
       ingredientsContent.classList.add(
         "cardsRecipe__card__content__ingredients__content"
       );
@@ -45,10 +47,12 @@ fetch(URL_RECIPES)
       preparationTitle.classList.add(
         "cardsRecipe__card__content__preparation__title"
       );
+      preparationTitle.textContent = "Preparacion";
       const preparationContent = document.createElement("div");
       preparationContent.classList.add(
         "cardsRecipe__card__content__preparation__content"
       );
+      preparationContent.textContent = recipe.preparation;
       divIngredients.appendChild(ingredientsTitle);
       divIngredients.appendChild(ingredientsContent);
       divPreparation.appendChild(preparationTitle);

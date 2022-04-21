@@ -132,7 +132,7 @@ input {
   row-gap: 5rem;
   justify-content: space-between; }
   .cardsRecipe__card {
-    border-radius: 5rem;
+    border-radius: 4rem;
     height: 45rem;
     width: 28rem;
     overflow: hidden; }
@@ -143,25 +143,32 @@ input {
       flex-direction: column;
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover; }
-      .cardsRecipe__card__content__ingredients__title {
-        font-family: "Segoe UI";
-        font-size: 1.6rem;
-        font-weight: 600;
-        margin: 2rem 1rem; }
-      .cardsRecipe__card__content__ingredients__content {
-        font-family: "Segoe UI";
-        font-size: 1.4rem;
-        font-weight: 400; }
-      .cardsRecipe__card__content__preparation__title {
-        font-family: "Segoe UI";
-        font-size: 1.6rem;
-        font-weight: 600;
-        margin: 2rem 1rem; }
-      .cardsRecipe__card__content__preparation__content {
-        font-family: "Segoe UI";
-        font-size: 1.4rem;
-        font-weight: 400; }
+      background-size: cover;
+      padding: 0 1.5rem; }
+      .cardsRecipe__card__content__ingredients {
+        display: none; }
+        .cardsRecipe__card__content__ingredients__title {
+          font-family: "Segoe UI";
+          font-size: 1.6rem;
+          font-weight: 600;
+          margin: 1.5rem 0; }
+        .cardsRecipe__card__content__ingredients__content {
+          font-family: "Segoe UI";
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin-bottom: 0.5rem;
+          list-style-position: inside; }
+      .cardsRecipe__card__content__preparation {
+        display: none; }
+        .cardsRecipe__card__content__preparation__title {
+          font-family: "Segoe UI";
+          font-size: 1.6rem;
+          font-weight: 600;
+          margin: 1.5rem 0; }
+        .cardsRecipe__card__content__preparation__content {
+          font-family: "Segoe UI";
+          font-size: 1.4rem;
+          font-weight: 400; }
     .cardsRecipe__card__title {
       height: 20%;
       display: flex;
@@ -169,7 +176,8 @@ input {
       align-items: center;
       font-size: 2.2rem;
       font-weight: 500;
-      font-family: "Segoe UI"; }
+      font-family: "Segoe UI";
+      background-color: #f0fff6; }
 
 .mainNutrition {
   display: flex;
