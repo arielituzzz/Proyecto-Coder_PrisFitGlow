@@ -135,7 +135,8 @@ input {
     border-radius: 5rem;
     height: 45rem;
     width: 28rem;
-    overflow: hidden; }
+    overflow: hidden;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05), -1px -1px 6px rgba(0, 0, 0, 0.05); }
     .cardsRecipe__card__content {
       height: 80%;
       display: flex;
@@ -151,7 +152,7 @@ input {
           font-family: "Segoe UI";
           font-size: 1.6rem;
           font-weight: 600;
-          margin: 1.5rem 0; }
+          margin: 2rem 0; }
         .cardsRecipe__card__content__ingredients__content {
           font-family: "Segoe UI";
           font-size: 1.4rem;
