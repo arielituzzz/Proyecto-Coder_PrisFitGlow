@@ -1,0 +1,17 @@
+@import "../components/form.scss";
+
+form {
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.05), 1px 1px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    display: flex;
+    margin: 10rem 20rem 20rem 20rem;
+    padding: 5rem;
+}
+
+input {
+    border: 1.5px solid #CBCBCB;
+    border-radius: 8px;
+    max-width: 70%;
+}
