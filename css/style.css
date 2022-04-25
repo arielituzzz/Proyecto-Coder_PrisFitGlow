@@ -153,7 +153,7 @@ input {
   src: url(/fonts/segoesc.ttf); }
 
 @font-face {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   src: url(/fonts/Segoe_UI.ttf); }
 
 /* RESET'S */
