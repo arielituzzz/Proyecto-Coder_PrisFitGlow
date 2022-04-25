@@ -1,0 +1,29 @@
+@import "./components/_trainingCards.scss";
+
+.cards {
+    margin-top: 5rem;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__title {
+        font-family: 'Segoe UI';
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+    &__left {
+        align-self: flex-start;
+    }
+
+    &__middle {
+        align-self: center;
+    }
+
+    &__right {
+        align-self: flex-end;
+    }
+}

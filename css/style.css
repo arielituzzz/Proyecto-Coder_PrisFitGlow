@@ -190,6 +190,30 @@ input {
     font-family: "Segoe Script";
     font-weight: 500; }
 
+.card {
+  background-color: #F0FFF6;
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+  text-align: center; }
+
+.cards {
+  margin-top: 5rem;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly; }
+  .cards__title {
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem; }
+  .cards__left {
+    align-self: flex-start; }
+  .cards__middle {
+    align-self: center; }
+  .cards__right {
+    align-self: flex-end; }
+
 @font-face {
   font-family: "Segoe Script";
   src: url(/fonts/segoesc.ttf); }
