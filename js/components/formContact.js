@@ -13,8 +13,7 @@ formRight.classList.add("form__right")
 
 const formTitle = document.createElement("h3");
 formTitle.textContent = "Contactate con nosotros";
-formTitle.classList.add("form__left__title"); /* Esta muy bien la implementacion de la clase!, ahora te falta crearla.
-Acordate que las clases del componente van en scss/components y las del layout general de la pagina que estes haciendo en scss/pages */
+formTitle.classList.add("form__left__title"); 
 formLeft.appendChild(formTitle);
 
 const inputName = document.createElement("input");
@@ -45,14 +44,51 @@ const formImg = document.createElement("img");
 formImg.src = "/images/paul-hanaoka-HbyYFFokvm0-unsplash.png";
 formRight.appendChild(formImg);
 
-const facebookLogo = document.createElement("img");
-facebookLogo.src = "/images/logos/fb.png";
-formRight.appendChild(facebookLogo);
+const logos = document.createElement("div");
+formRight.appendChild(logos);
+logos.classList.add("form__right__logos");
 
-const instagramLogo = document.createElement("img");
-instagramLogo.src = "/images/logos/Instagram.png";
-formRight.appendChild(instagramLogo);
 
-const mailLogo = document.createElement("img");
-mailLogo.src = "/images/logos/Mail.png";
-formRight.appendChild(mailLogo);
+
+const facebook = document.createElement("div");
+logos.appendChild(facebook);
+facebook.classList.add("form__right__logos__facebook");
+
+const logoFacebook = document.createElement("div");
+facebook.appendChild(logoFacebook);
+logoFacebook.classList.add("form__right__logos__facebook__icono","iconos");
+
+const textoFacebook = document.createElement("h4");
+textoFacebook.textContent = "Facebook";
+facebook.appendChild(textoFacebook);
+textoFacebook.classList.add("form__right__logos__texto");
+
+
+
+
+const instagram = document.createElement("div");
+logos.appendChild(instagram);
+instagram.classList.add("form__right__logos__instagram");
+
+const logoInstagram = document.createElement("div");
+instagram.appendChild(logoInstagram);
+logoInstagram.classList.add("form__right__logos__instagram__icono", "iconos");
+
+const textoInstagram = document.createElement("h4");
+textoInstagram.textContent = "Instagram";
+instagram.appendChild(textoInstagram);
+textoInstagram.classList.add("form__right__logos__texto");
+
+
+const mail = document.createElement("div");
+logos.appendChild(mail);
+mail.classList.add("form__right__logos__mail");
+
+const logoMail = document.createElement("div");
+mail.appendChild(logoMail);
+logoMail.classList.add("form__right__logos__mail__icono", "iconos");
+
+const textoMail = document.createElement("h4");
+textoMail.textContent = "Mail";
+mail.appendChild(textoMail);
+textoMail.classList.add("form__right__logos__texto");

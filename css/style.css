@@ -105,10 +105,40 @@
     font-family: 'Segoe UI';
     font-weight: 600; }
 
+.iconos {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1.5rem; }
+
 .form__right {
   display: flex;
   flex-direction: column;
   margin-right: 5rem; }
+  .form__right__logos {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .form__right__logos__texto {
+      font-family: 'Segoe UI';
+      font-size: 1.5rem; }
+    .form__right__logos__facebook {
+      display: flex;
+      align-items: center; }
+      .form__right__logos__facebook__icono {
+        background-image: url(../images/logos/fb.png); }
+    .form__right__logos__instagram {
+      display: flex;
+      align-items: center; }
+      .form__right__logos__instagram__icono {
+        background-image: url(../images/logos/Instagram.png); }
+    .form__right__logos__mail {
+      display: flex;
+      align-items: center; }
+      .form__right__logos__mail__icono {
+        background-image: url(../images/logos/Mail.png); }
 
 form {
   border: 1px solid #EDEDED;
@@ -197,22 +227,45 @@ input {
   text-align: center; }
 
 .cards {
-  margin-top: 5rem;
-  height: 600px;
+  margin-top: 3rem;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  height: 68rem; }
   .cards__title {
     font-family: 'Segoe UI';
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    padding: 1rem; }
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
   .cards__left {
-    align-self: flex-start; }
+    align-self: flex-start;
+    width: 30rem; }
+    .cards__left__img {
+      background-image: url(../images/cards/Rectangle7.png);
+      height: 45rem;
+      width: 30rem;
+      background-repeat: no-repeat;
+      background-size: cover; }
   .cards__middle {
-    align-self: center; }
+    align-self: center;
+    width: 30rem; }
+    .cards__middle__img {
+      background-image: url(../images/cards/Rectangle6.png);
+      height: 45rem;
+      width: 30rem;
+      background-repeat: no-repeat;
+      background-size: cover; }
   .cards__right {
-    align-self: flex-end; }
+    align-self: flex-end;
+    width: 30rem; }
+    .cards__right__img {
+      background-image: url(../images/cards/Rectangle5.png);
+      height: 45rem;
+      width: 30rem;
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 @font-face {
   font-family: "Segoe Script";

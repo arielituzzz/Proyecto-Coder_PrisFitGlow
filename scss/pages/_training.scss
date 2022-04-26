@@ -1,10 +1,10 @@
 @import "./components/_trainingCards.scss";
 
 .cards {
-    margin-top: 5rem;
-    height: 600px;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-evenly;
+    height: 68rem;
 
     &__title {
         font-family: 'Segoe UI';
@@ -12,18 +12,46 @@
         font-weight: 400;
         text-align: center;
         padding: 1rem;
-
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     &__left {
         align-self: flex-start;
+        width: 30rem;
+
+        &__img {
+            background-image: url(../images/cards/Rectangle7.png);
+            height: 45rem;
+            width: 30rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
 
     &__middle {
         align-self: center;
+        width: 30rem;
+
+        &__img {
+            background-image: url(../images/cards/Rectangle6.png);
+            height: 45rem;
+            width: 30rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
 
     &__right {
         align-self: flex-end;
+        width: 30rem;
+
+        &__img {
+            background-image: url(../images/cards/Rectangle5.png);
+            height: 45rem;
+            width: 30rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
 }

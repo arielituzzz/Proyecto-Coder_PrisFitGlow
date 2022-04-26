@@ -39,9 +39,57 @@
     }
 }
 
+.iconos {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.5rem;
+}
+
 .form__right {
 
     display: flex;
     flex-direction: column;
     margin-right: 5rem;
+
+    &__logos {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__texto {
+            font-family: 'Segoe UI';
+            font-size: 1.5rem;
+        }
+
+        &__facebook {
+            display: flex;
+            align-items: center;
+
+            &__icono {
+                background-image: url(../images/logos/fb.png);
+            }
+        }
+
+        &__instagram {
+            display: flex;
+            align-items: center;
+
+            &__icono {
+                background-image: url(../images/logos/Instagram.png);
+            }
+        }
+
+        &__mail {
+            display: flex;
+            align-items: center;
+
+            &__icono {
+                background-image: url(../images/logos/Mail.png);
+
+            }
+        }
+    }
 }
