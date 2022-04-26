@@ -1,5 +1,6 @@
 export const form = document.createElement("div");
 const contactForm = document.createElement("form");
+contactForm.setAttribute("id", "form");
 form.appendChild(contactForm);
 
 
@@ -7,38 +8,69 @@ const formLeft = document.createElement("div");
 contactForm.appendChild(formLeft);
 formLeft.classList.add("form__left")
 
+
 const formRight = document.createElement("div");
 contactForm.appendChild(formRight);
 formRight.classList.add("form__right")
 
 const formTitle = document.createElement("h3");
 formTitle.textContent = "Contactate con nosotros";
-formTitle.classList.add("form__left__title"); 
+formTitle.classList.add("form__left__title");
 formLeft.appendChild(formTitle);
 
 const inputName = document.createElement("input");
 inputName.type = "text";
 inputName.placeholder = "Nombre";
+inputName.name = "name";
+inputName.required;
 inputName.classList.add("form__left__inputNombre");
 formLeft.appendChild(inputName);
 
 const inputMail = document.createElement("input");
 inputMail.type = "email";
 inputMail.placeholder = "E-mail";
+inputMail.name = "email";
+inputName.required;
 inputMail.classList.add("form__left__inputMail");
 formLeft.appendChild(inputMail);
 
 const inputText = document.createElement("input");
 inputText.type = "text";
 inputText.placeholder = "Mensaje";
+inputText.name = "text";
+inputName.required;
 inputText.classList.add("form__left__inputMensaje");
 formLeft.appendChild(inputText);
 
 const submit = document.createElement("input");
 submit.type = "submit";
-submit.value = "Enviar";
+submit.value = "Enviar mensaje";
 submit.classList.add("form__left__submit");
+submit.setAttribute("id", "button");
 formLeft.appendChild(submit);
+
+
+//Api
+
+// const btn = document.getElementById('button');
+// const emailJS = document.getElementById('form');
+// emailJS.addEventListener('submit', function (event) {
+//     event.preventDefault();
+
+//     btn.value = 'Sending...';
+
+//     const serviceID = 'default_service';
+//     const templateID = 'template_2dr450n';
+
+//     emailjs.sendForm(serviceID, templateID, this)
+//         .then(() => {
+//             btn.value = 'Send Email';
+//             alert('Sent!');
+//         }, (err) => {
+//             btn.value = 'Send Email';
+//             alert(JSON.stringify(err));
+//         });
+// });
 
 const formImg = document.createElement("img");
 formImg.src = "/images/paul-hanaoka-HbyYFFokvm0-unsplash.png";
@@ -56,7 +88,7 @@ facebook.classList.add("form__right__logos__facebook");
 
 const logoFacebook = document.createElement("div");
 facebook.appendChild(logoFacebook);
-logoFacebook.classList.add("form__right__logos__facebook__icono","iconos");
+logoFacebook.classList.add("form__right__logos__facebook__icono", "iconos");
 
 const textoFacebook = document.createElement("h4");
 textoFacebook.textContent = "Facebook";
